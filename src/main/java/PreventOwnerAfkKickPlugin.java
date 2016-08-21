@@ -58,6 +58,6 @@ public class PreventOwnerAfkKickPlugin extends HabboPlugin implements EventListe
 
     @Override
     public boolean hasPermission(Habbo habbo, String key) {
-        return true;
+        return false;
     }
 }
